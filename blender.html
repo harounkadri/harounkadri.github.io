@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blender Projects - Portfolio</title>
+  <meta name="description" content="My 3D modeling and animation projects made with Blender.">
+  <meta name="keywords" content="Blender, 3D, modeling, animation, portfolio, Haroun Kadri">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .portfolio-item {
+      margin-bottom: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .portfolio-img {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-info {
+      text-align: center;
+      padding: 15px 10px;
+    }
+
+    .portfolio-info h4 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .portfolio-info p {
+      color: #6c757d;
+      font-size: 0.95rem;
+      min-height: 60px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: #0d6efd;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .download-btn:hover {
+      background-color: #084298;
+    }
+
+    .add-project {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .add-project a {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .add-project a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body class="portfolio-details-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">BLENDER PROJECTS</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Works</a></li>
+          <li><a href="blender.html" class="active">Blender</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- ======= Page Title ======= -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading text-center">
+        <div class="container">
+          <h1>My Blender Projects</h1>
+          <p class="mb-0">Explore my 3D models and animations. You can view previews and download the .blend files.</p>
+        </div>
+      </div>
+
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Works</a></li>
+            <li class="current">Blender</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- ======= Blender Portfolio Section ======= -->
+    <section class="portfolio section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <!-- ======= Project 1 ======= -->
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-img">
+              <img src="ocean.png" class="img-fluid" alt="3D House Model">
+            </div>
+            <div class="portfolio-info">
+              <h4>ocean</h4>
+              <p>3D architectural visualization created in Blender using Cycles Render.</p>
+              <a href="ocean.blend" class="download-btn" download>
+                <i class="bi bi-download"></i> Download .blend
+              </a>
+            </div>
+          </div>
+          <!-- End Project -->
+
+
+    <!-- End Portfolio Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container text-center">
+      <h3 class="sitename">PORTFOLIO</h3>
+      <p>👋 Welcome to my Blender creations — designed and rendered by <strong>Haroun Kadri</strong>.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="copyright mt-3">
+        <span>© 2025</span> <strong class="px-1 sitename">Haroun Kadri</strong>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

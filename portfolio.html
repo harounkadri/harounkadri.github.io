@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - Works</title>
+  <meta name="description" content="My personal portfolio showcasing web, app, and Blender projects.">
+  <meta name="keywords" content="portfolio, web development, blender, app, projects">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Custom styling for the buttons section */
+    .filter-buttons {
+      max-width: 400px;
+      margin: 80px auto;
+      text-align: center;
+    }
+
+    .filter-buttons button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 500;
+      border: 2px solid #18d26e;
+      background: transparent;
+      color: #18d26e;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .filter-buttons button:hover,
+    .filter-buttons button.active {
+      background: #18d26e;
+      color: #fff;
+      transform: scale(1.02);
+    }
+
+    .no-projects {
+      text-align: center;
+      color: #6c757d;
+      margin-top: 40px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body class="portfolio-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">WORKS</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading text-center">
+        <div class="container">
+          <h1>My Works</h1>
+          <p class="mb-0">Explore my main project categories below:</p>
+        </div>
+      </div>
+
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Works</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- ======= Vertical Buttons Section ======= -->
+    <section class="portfolio section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="filter-buttons">
+          <button onclick="location.href='site.html'">Site</button>
+          <button onclick="location.href='app.html'">App</button>
+          <button onclick="location.href='blender.html'">Blender</button>
+        </div>
+
+        <p class="no-projects">No projects added yet. New works will be displayed here soon!</p>
+
+      </div>
+    </section>
+    <!-- End Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container text-center">
+      <h3 class="sitename">PORTFOLIO</h3>
+      <p>👋 Welcome to my personal portfolio — built and designed by <strong>Haroun Kadri</strong>.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-skype"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="copyright mt-3">
+        <span>© 2025</span> <strong class="px-1 sitename">Haroun Kadri</strong>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
