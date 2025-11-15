@@ -73,23 +73,25 @@
       background-color: #084298;
     }
 
-    .add-project {
+    /* NEW PDF BUTTON */
+    .pdf-download-section {
+      margin-top: 60px;
       text-align: center;
-      margin: 50px 0;
     }
 
-    .add-project a {
-      background-color: #007bff;
-      color: #fff;
+    .pdf-btn {
+      background-color: #dc3545;
+      color: white;
       padding: 12px 25px;
       border-radius: 10px;
       text-decoration: none;
+      font-size: 1rem;
       font-weight: 500;
       transition: 0.3s;
     }
 
-    .add-project a:hover {
-      background-color: #0056b3;
+    .pdf-btn:hover {
+      background-color: #a71d2a;
     }
   </style>
 </head>
@@ -151,7 +153,7 @@
           <!-- ======= Project 1 ======= -->
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-img">
-              <img src="ocean.png" class="img-fluid" alt="3D House Model">
+              <img src="ocean.png" class="img-fluid" alt="Ocean Project">
             </div>
             <div class="portfolio-info">
               <h4>ocean</h4>
@@ -160,10 +162,19 @@
                 <i class="bi bi-download"></i> Download .blend
               </a>
             </div>
+             <div class="pdf-download-section">
+          <a href="rapport de creation ocean.pdf" class="pdf-btn" download>
+            <i class="bi bi-file-earmark-pdf"></i> Télécharger le Rapport PDF
+          </a>
+        </div>
           </div>
           <!-- End Project -->
 
+        </div>
 
+       
+      </div>
+    </section>
     <!-- End Portfolio Section -->
 
   </main>
